@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/faq2"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) How to find my current location ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)To find your current location press on MY LOCATION on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) How can I file a report for my lost essential "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)To file  report for your lost essentials press on LOST AND FOUND on the  home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) Can I book my tickets too ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)Yes you book tickets,so press on RESERVATION on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.)Can I verify any person ?"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)Yes you can verify a person using our AADHAR card scanner , to do that press on VERIFICATION  on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) How can i file a n EVE-TEASING report on this app ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)To file an eve-teasing report just locate EVE-TEASING report  on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) Can I give my chalan with this app ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)You can give chalan by  just pressing TRAFFIC CHALAN ONLINE on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) Is there a SOS feature too in this app ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)There is a SOS feature in this app you can find it  on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) Can I find some contacts to help me in emergency ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)A list of most important contacts are there on EMERGENCY CONTACTS LIST on home page "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.) Is there an option to volunteer for the community help ? "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANS.)You can fill a form to volunteer by pressing TEAM on navigation pane "
+                android:padding="10sp"
+                android:textColor="#349eeb"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

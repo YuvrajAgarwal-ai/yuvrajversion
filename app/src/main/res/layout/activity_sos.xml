@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app_developement.sos"
+    android:fitsSystemWindows="true"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/white_background"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image3"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="choose image"
+                android:background="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:id="@+id/choose_image"/>
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/vedio"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="choose vedio"
+                android:background="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:id="@+id/choose"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name "
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/antic"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/sos_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="@drawable/white_background"
+                android:inputType="text" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Travel without ticket"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/general"
+                android:padding="10sp" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving an Unauthorized Vehicle without License"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/un"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving With Disqualified License"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/dis"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving Without License"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/license"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Overspeeding"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/over"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Rash Driving"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/rash"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving Under Influence of Alcohol or Intoxicating Substance"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/alcohol"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving When Mentally/Physically Unfit"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/unfit"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Driving Uninsured Vehicle (without valid Insurance)"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/uninsured"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Racing and Speed-testing"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/speed"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Vehicle Without Permit"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/permit"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Overloading"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/overloading"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Not Wearing Seatbelt"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/seatbelt"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Overloading of Two-Wheelers"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/two"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Not Wearing Helmet"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/helmet"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Offences by Juveniles"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/juve"
+                android:padding="10sp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="Offences Committed by Enforcing Officers"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/officer"
+                android:padding="10sp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="Upload"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:id="@+id/upload"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUS"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/about2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyPolice app has been dedicated to ensuring the safety of our fellow citizens all around the state of Madhya Pradesh."
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="@font/bungee"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We want to build the bridge between people and police through this app."
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="@font/bungee"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The main purpose of MyPolice app is to allow people to communicate freely and become aware of our system."
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="@font/bungee"/>
+
+
+</LinearLayout>

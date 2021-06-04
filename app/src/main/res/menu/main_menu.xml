@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Miscellaneous">
+            <menu>
+                <item
+                    android:id="@+id/nav_rules"
+                    android:icon="@drawable/ic_warning"
+                    android:title="General public rules"/>
+
+                <item
+                    android:id="@+id/nav_traffic"
+                    android:icon="@drawable/ic_traffic"
+                    android:title="Traffic Violation fine "/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+
+
+
+            </menu>
+        </item>
+        <item android:title="About App">
+            <menu>
+                <item
+                    android:id="@+id/about_us"
+                    android:title="About US"
+                    android:icon="@drawable/about"/>
+                <item
+                    android:id="@+id/faq"
+                    android:title="FAQ"
+                    android:icon="@drawable/faq"/>
+            </menu>
+        </item>
+
+
+    </group>
+
+
+</menu>

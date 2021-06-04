@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="#32A8E7"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo4"
+        android:layout_gravity="center"
+        android:transitionName="logo_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:fontFamily="@font/bungee" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign Up to Start your new Journey "
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="ExtraText">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:layout_width="match_parent"
+
+            android:hint="Full Name "
+            android:id="@+id/regName"
+            android:layout_height="30dp"
+            android:background="@drawable/white_background"
+
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:id="@+id/regEmail"
+            android:layout_height="30dp"
+            android:background="@drawable/white_background"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Phone NO"
+            android:id="@+id/regPhoneNo"
+            android:layout_height="30dp"
+            android:background="@drawable/white_background"
+
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="password"
+            android:layout_height="30dp"
+            android:background="@drawable/white_background"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:transitionName="button_tran"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/regLogin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="ALready have an account? LogIn"
+        android:transitionName="login_signup_tran"
+        tools:ignore="InvalidId" />
+
+
+
+
+
+
+
+
+</LinearLayout>

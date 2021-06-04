@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rules"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Rules to follow :"
+            android:textSize="25sp"
+            android:fontFamily="@font/bungee"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Motor Vehicle Act 1988, section -185 202"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At the time of driving if your 100ml. blood contains more than 30mg. of alcohol then the police can arrest you without a warrant."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Criminal Procedure Code, Section 46"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No woman cannot be arrested before 6 A.M. and after 6 P.M."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Indian Penal Code, 166 A"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Police officer can’t refuse to lodge an FIR if he/she does so they could be jailed for up to 6 months to 1 year."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Indian Srius Act, 1887"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Even any 5-star hotel can’t prohibit you from drinking potable water and using its washrooms." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Motor Vehicle Act, 1988"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As per Section 129 of the Indian Motor Vehicle Act, wearing the helmet is a must for two-wheeler riders. Section 128 of this Motor Vehicle Act limits the maximum two riders on the bikes."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Domestic Violence Act, 2005"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If a young boy and a girl want to live together in “live-in relationship” , they can do so because it is not illegal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Police Act, 1861"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A police officer is always on duty whether he/she wearing a uniform or not. If a person makes a complaint to the officer, he/she could not say that he can’t help the victim because he/ she is not on duty."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Maternity Benefit Act, 1961"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No company can fire a pregnant woman. It may be punishable by a maximum of 3 years of imprisonment."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Income Tax Act, 1961"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In the case of tax violations, the tax collection officer has the power to arrest you but before arresting you, he/she will have to send a notice to you. Only Tax Commissioner decides how long you will stay in the custody."/>
+
+</LinearLayout>
